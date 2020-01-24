@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Learn To Code</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Learn To Code</string>
+    <string name="nav_header_subtitle">rohitanabhavane7@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="privacy_text">Learn code languages such as
+                                HTML, CSS, PHP, BOOTSTRAP, C LANGUAGE, ANGULAR,
+                                C++, C#, JAVA, JQUREY, PYTHON, SQL with us.
+                                All the Reference for the courses or coding languages is
+                                referenced from w3school.</string>
+    <string name="privacy_text2">We use data to provide and improve the services.
+                                By using the services, you agree the collection and use of
+                                information in accordance with the policy. Unless otherwise
+                                defined in this policy,terms used in this Privacy Policy
+                                have the same meanings as in our Terms and Conditions</string>
+
+    <string name="about1">Learn to code App was developed on 15th january 2020 by Master Rohit Anabhavane
+        for those who want to learn differeent different coding languages.All the information regarding this courses is
+    refferenced from w3school.</string>
+
+    <string name="about2">For Any Enquiry this app or courses You can contact me directly using this email : rohitanabhavane7@gmail.com
+    or else you can go ahead in contact us page filling the form and i will try to get in touch with you as soon as possible</string>
+    <string name="title_activity_course_one">CourseOneActivity</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+
+    //Html
+    <string name="menu_intro">Introduction of HTML</string>
+    <string name="menu_html_Editor">HTML Editors</string>
+    <string name="menu_html_Basic">HTML Basic</string>
+    <string name="menu_html_Element">HTML Elements</string>
+    <string name="menu_html_Attributes">HTML Attributes</string>
+    <string name="menu_html_headings">HTML Headings</string>
+    <string name="menu_html_Paragraphs">HTML Paragraphs</string>
+    <string name="menu_html_style">HTML Styles</string>
+    <string name="menu_html_formatting">HTML Formatting</string>
+    <string name="menu_html_Quotation">HTML Quotation</string>
+    <string name="menu_html_comment">HTML Comments</string>
+    <string name="menu_html_color">HTML Colors</string>
+    <string name="menu_html_css">HTML CSS</string>
+    <string name="menu_html_links">HTML Links</string>
+    <string name="menu_html_images">HTML Images</string>
+    <string name="menu_html_tables">HTML Tables</string>
+    <string name="menu_html_list">HTML Lists</string>
+    <string name="menu_html_Block">HTML Blocks</string>
+    <string name="menu_html_classes">HTML Classes</string>
+    <string name="menu_html_id">HTML ID</string>
+    <string name="menu_html_iFrames">HTML IFrames</string>
+    <string name="menu_html_javascript">HTML JavaScript</string>
+    <string name="menu_html_FilePath">HTML File Paths</string>
+    <string name="menu_html_head">HTML Head</string>
+    <string name="menu_html_layout">HTML Layout</string>
+    <string name="menu_html_responsive">HTML Responsive</string>
+    <string name="menu_html_ComputerCode">HTML Computercode</string>
+    <string name="menu_html_entities">HTML Entities</string>
+    <string name="menu_html_symbols">HTML Symbols</string>
+    <string name="menu_html_charset">HTML Charset</string>
+    <string name="menu_html_url_encode">HTML URl Encode</string>
+    <string name="menu_html_Xhtml">HTML XHTML</string>
+
+    //Html Content
+    <string name="whatIsHtml">What is HTML?</string>
+    <string name="whatIsHtmlDesc">HTML is the standard markup language for creating Web pages.</string>
+    <string name="whatIsHtmlDesc1">- HTML stands for Hyper Text Markup Language.</string>
+    <string name="whatIsHtmlDesc2">- HTML describes the structure of a Web page.</string>
+    <string name="whatIsHtmlDesc3">- HTML consists of a series of elements.</string>
+    <string name="whatIsHtmlDesc4">- HTML elements tell the browser how to display the content.</string>
+    <string name="whatIsHtmlDesc5">- HTML elements are represented by tags.</string>
+    <string name="whatIsHtmlDesc6">- HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.</string>
+    <string name="whatIsHtmlDesc7">- Browsers do not display the HTML tags, but use them to render the content of the page.</string>
+    <string name="simpleHtml">A Simple HTML Document</string>
+    <string name="simpleHtmlExample">Example</string>
+    <string name="exampleExplained">Example Explained</string>
+    <string name="exampleExplained2"><![CDATA[- The <!DOCTYPE html> declaration defines this document to be HTML5]]></string>
+    <string name="exampleExplained3"><![CDATA[- The <html> element is the root element of an HTML page]]></string>
+    <string name="exampleExplained4"><![CDATA[- The <head> element contains meta information about the document]]></string>
+    <string name="exampleExplained5"><![CDATA[- The <title> element specifies a title for the document]]></string>
+    <string name="exampleExplained6"><![CDATA[- The <body> element contains the visible page content]]></string>
+    <string name="exampleExplained7"><![CDATA[- The <h1> element defines a large heading]]></string>
+    <string name="exampleExplained8"><![CDATA[- The <p> element defines a paragraph]]></string>
+
+    //html code
+    <string name="code4"><![CDATA[<!DOCTYPE html>]]></string>
+    <string name="code5"><![CDATA[<html>]]></string>
+    <string name="code6"><![CDATA[<head>]]></string>
+    <string name="code7"><![CDATA[<title>Page Title</title>]]></string>
+    <string name="code8"><![CDATA[</head>]]></string>
+    <string name="code9"><![CDATA[<body>]]></string>
+    <string name="code10"><![CDATA[<h1>My First Heading</h1>]]></string>
+    <string name="code11"><![CDATA[<p>My first paragraph.</p>]]></string>
+    <string name="code12"><![CDATA[</body>]]></string>
+    <string name="code13"><![CDATA[</html>]]></string>
+
+    //html Tags
+    <string name="htmlTags">HTML Tags</string>
+    <string name="htmlTagsdesc">HTML tags are element names surrounded by angle brackets:</string>
+    <string name="htmlTagsCode"><![CDATA[<tagname>   content goes here   </tagname>]]></string>
+    <string name="htmlTagsCode1"><![CDATA[- HTML tags normally come in pairs like <p> and </p>]]></string>
+    <string name="htmlTagsCode2"><![CDATA[- The first tag in a pair is the start tag, the second tag is the end tag]]></string>
+    <string name="htmlTagsCode3"><![CDATA[- The end tag is written like the start tag, but with a forward slash inserted before the tag name]]></string>
+    <string name="htmlTagsTips">Tip: The start tag is also called the opening tag, and the end tag the closing tag.</string>
+
+    //web browser
+    <string name="webBrowser">Web Browsers</string>
+    <string name="webBrowser1">The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them.</string>
+    <string name="webBrowser2">The browser does not display the HTML tags, but uses them to determine how to display the document:  </string>
+    <string name="htmlPageStructure">HTML Page Structure </string>
+    <string name="htmlPageStructuredesc">Below is a visualization of an HTML page structure: </string>
+    <string name="htmlPageStructureTip"><![CDATA[Note: Only the content inside the <body> section (the white area above) is displayed in a browser.]]></string>
+
+    //The DOCTYPE Declaration
+    <string name="declaration"><![CDATA[The <!DOCTYPE> Declaration]]></string>
+    <string name="declaration1"><![CDATA[The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+
+It must only appear once, at the top of the page (before any HTML tags).]]></string>
+    <string name="declaration2"><![CDATA[The <!DOCTYPE> declaration is not case sensitive.]]></string>
+    <string name="declaration3"><![CDATA[The <!DOCTYPE> declaration for HTML5 is:]]></string>
+
+    //Versions
+    <string name="versions"><![CDATA[HTML Versions]]></string>
+    <string name="versionsdesc"><![CDATA[Since the early days of the web, there have been many versions of HTML:]]></string>
+
+    //Html Editor
+    <string name="htmlEditordesc">Write HTML Using Notepad or TextEdit</string>
+    <string name="htmlEditordesc1">Web pages can be created and modified by using professional HTML editors.</string>
+    <string name="htmlEditordesc2">However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</string>
+    <string name="htmlEditordesc3">We believe using a simple text editor is a good way to learn HTML.</string>
+    <string name="htmlEditordesc4">Follow the steps below to create your first web page with Notepad or TextEdit.</string>
+    <string name="htmlEditordesc5">Step 1: Open Notepad (PC)</string>
+    <string name="htmlEditordesc6">Windows 8 or later:</string>
+    <string name="htmlEditordesc7">Open the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.</string>
+    <string name="htmlEditordesc8">Windows 7 or earlier:</string>
+    <string name="htmlEditordesc9">Open Start > Programs > Accessories > Notepad</string>
+    <string name="htmlEditordesc10">Step 1: Open TextEdit (Mac)</string>
+    <string name="htmlEditordesc11">Open Finder > Applications > TextEdit</string>
+    <string name="htmlEditordesc12">Also change some preferences to get the application to save files correctly. In Preferences > Format > choose "Plain Text"</string>
+    <string name="htmlEditordesc13">Then under "Open and Save", check the box that says "Display HTML files as HTML code instead of formatted text".</string>
+    <string name="htmlEditordesc14">Then open a new document to place the code.</string>
+    <string name="htmlEditordesc15">Step 2: Write Some HTML</string>
+    <string name="htmlEditordesc16">Write or copy some HTML into Notepad.</string>
+    <string name="htmlEditordesc28">Step 3: Save the HTML Page</string>
+    <string name="htmlEditordesc29">Save the file on your computer. Select File > Save as in the Notepad menu.</string>
+    <string name="htmlEditordesc30">Name the file "index.htm" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).</string>
+    <string name="htmlEditordesc31">You can use either .htm or .html as file extension. There is no difference, it is up to you.</string>
+    <string name="htmlEditordesc32">Step 4: View the HTML Page in Your Browser</string>
+    <string name="htmlEditordesc33">Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").</string>
+    <string name="htmlEditordesc34">The result will look much like this:</string>
+
+    //HTML Basics
+    <string name="htmlBasicTitle">HTML Basic Examples</string>
+    <string name="htmlBasic1">Don\'t worry if these examples use tags you have not learned.</string>
+    <string name="htmlBasic2">You will learn about them in the next chapters.</string>
+    <string name="htmlBasic3">HTML Documents</string>
+    <string name="htmlBasic4"><![CDATA[ All HTML documents must start with a document type declaration: <!DOCTYPE html>.]]></string>
+    <string name="htmlBasic5"><![CDATA[ The HTML document itself begins with <html> and ends with </html>.]]></string>
+    <string name="htmlBasic6"><![CDATA[ The visible part of the HTML document is between <body> and </body>.]]></string>
+    <string name="htmlBasic7">Example</string>
+    <string name="htmlBasic8"><![CDATA[ <!DOCTYPE html> ]]></string>
+    <string name="htmlBasic9"><![CDATA[ <html> ]]></string>
+    <string name="htmlBasic10"><![CDATA[ <body> ]]></string>
+    <string name="htmlBasic11"><![CDATA[ <h1>My First Heading</h1> ]]></string>
+    <string name="htmlBasic12"><![CDATA[ <p>My first paragraph.</p> ]]></string>
+    <string name="htmlBasic13"><![CDATA[ </body> ]]></string>
+    <string name="htmlBasic14"><![CDATA[ </html> ]]></string>
+    <string name="htmlBasic15">HTML Headings</string>
+    <string name="htmlBasic16"><![CDATA[ HTML headings are defined with the <h1> to <h6> tags. ]]></string>
+    <string name="htmlBasic17"><![CDATA[ <h1> defines the most important heading. <h6> defines the least important heading:  ]]></string>
+    <string name="htmlBasic18"><![CDATA[ <h1>This is heading 1</h1> ]]></string>
+    <string name="htmlBasic19"><![CDATA[ <h2>This is heading 2</h2>  ]]></string>
+    <string name="htmlBasic20"><![CDATA[ <h3>This is heading 3</h3>  ]]></string>
+    <string name="htmlBasic21">HTML Paragraphs</string>
+    <string name="htmlBasic22"><![CDATA[ HTML paragraphs are defined with the <p> tag:  ]]></string>
+    <string name="htmlBasic23">Example</string>
+    <string name="htmlBasic24"><![CDATA[ <p>This is a paragraph.</p>  ]]></string>
+    <string name="htmlBasic25"><![CDATA[ <p>This is another paragraph.</p>  ]]></string>
+    <string name="htmlBasic26">HTML Links</string>
+    <string name="htmlBasic27"><![CDATA[ HTML links are defined with the <a> tag:  ]]></string>
+    <string name="htmlBasic28">Example</string>
+    <string name="htmlBasic29"><![CDATA[ <a href="https://www.w3schools.com">This is a link</a>  ]]></string>
+    <string name="htmlBasic30">The link\'s destination is specified in the href attribute. </string>
+    <string name="htmlBasic31">Attributes are used to provide additional information about HTML elements.</string>
+    <string name="htmlBasic32">You will learn more about attributes in a later chapter.</string>
+    <string name="htmlBasic33">HTML Images</string>
+    <string name="htmlBasic34"><![CDATA[ HTML images are defined with the <img> tag.  ]]></string>
+    <string name="htmlBasic35"><![CDATA[ The source file (src), alternative text (alt), width, and height are provided as attributes:  ]]></string>
+    <string name="htmlBasic36">Example</string>
+    <string name="htmlBasic37"><![CDATA[ <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">  ]]></string>
+    <string name="htmlBasic38">HTML Buttons</string>
+    <string name="htmlBasic39"><![CDATA[ HTML buttons are defined with the <button> tag: ]]></string>
+    <string name="htmlBasic40">Example</string>
+    <string name="htmlBasic41"><![CDATA[ <button>Click me</button> ]]></string>
+    <string name="htmlBasic42">HTML Lists</string>
+    <string name="htmlBasic43"><![CDATA[ HTML lists are defined with the <ul> (unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li> tags (list items): ]]></string>
+    <string name="htmlBasic44">Example</string>
+    <string name="htmlBasic45"><![CDATA[ <ul> ]]></string>
+    <string name="htmlBasic46"><![CDATA[ <li>Coffee</li> ]]></string>
+    <string name="htmlBasic47"><![CDATA[ <li>Tea</li> ]]></string>
+    <string name="htmlBasic48"><![CDATA[ <li>Milk</li> ]]></string>
+    <string name="htmlBasic49"><![CDATA[ </ul> ]]></string>
+    <string name="htmlBasic50"><![CDATA[ <ol> ]]></string>
+    <string name="htmlBasic51"><![CDATA[ <li>Coffee</li> ]]></string>
+    <string name="htmlBasic52"><![CDATA[ <li>Tea</li> ]]></string>
+    <string name="htmlBasic53"><![CDATA[ <li>Milk</li> ]]></string>
+    <string name="htmlBasic54"><![CDATA[ </ol> ]]></string>
+
+
+    </resources>

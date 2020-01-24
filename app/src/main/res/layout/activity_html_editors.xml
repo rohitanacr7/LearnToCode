@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal">
+
+    <TextView
+    android:id="@+id/text_html_editors"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:padding="20dp"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/htmlEditordesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc1"
+                android:layout_below="@+id/htmlEditordesc"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:text="@string/htmlEditordesc2"
+                android:layout_below="@+id/htmlEditordesc1"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:text="@string/htmlEditordesc3"
+                android:layout_below="@+id/htmlEditordesc2"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:text="@string/htmlEditordesc4"
+                android:layout_below="@+id/htmlEditordesc3"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc5"
+                android:layout_below="@+id/htmlEditordesc4"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc6"
+                android:layout_below="@+id/htmlEditordesc5"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc7"
+                android:layout_below="@+id/htmlEditordesc6"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc8"
+                android:layout_below="@+id/htmlEditordesc7"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc9"
+                android:layout_below="@+id/htmlEditordesc8"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc10"
+                android:layout_below="@+id/htmlEditordesc9"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc11"
+                android:layout_below="@+id/htmlEditordesc10"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc12"
+                android:layout_below="@+id/htmlEditordesc11"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc13"
+                android:layout_below="@+id/htmlEditordesc12"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="20dp"
+                android:text="@string/htmlEditordesc14"
+                android:layout_below="@+id/htmlEditordesc13"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="32dp"
+                android:text="@string/htmlEditordesc15"
+                android:layout_below="@+id/htmlEditordesc14"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="10dp"
+                android:text="@string/htmlEditordesc16"
+                android:layout_below="@+id/htmlEditordesc15"
+                android:textColor="#000"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/htmlEditordesc17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc16"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code4"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc17"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code5"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:id="@+id/htmlEditordesc22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc18"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code9"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc22"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code10"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc23"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code11"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc24"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code12"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc25"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/code13"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/htmleditorImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc26"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="93dp"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:paddingLeft="32dp"
+                android:paddingTop="18dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="32dp"
+                android:src="@drawable/htmleditor" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmleditorImg"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc28"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/htmlEditordesc29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc28"
+                android:paddingLeft="32dp"
+                android:paddingTop="15dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc29"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc29"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc30"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/htmleditorImg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc30"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="93dp"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:paddingLeft="32dp"
+                android:paddingTop="18dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="32dp"
+                android:src="@drawable/htmleditorimag2" />
+
+            <TextView
+                android:id="@+id/htmlEditorTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmleditorImg2"
+                android:paddingTop="32dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="32dp"
+                android:text="@string/htmlEditordesc31"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:background="@color/colorTip"/>
+
+            <TextView
+                android:id="@+id/htmlEditordesc32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditorTips"
+                android:paddingLeft="32dp"
+                android:paddingTop="15dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc32"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc32"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc33"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/htmlEditordesc34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc33"
+                android:paddingLeft="32dp"
+                android:paddingTop="8dp"
+                android:paddingRight="32dp"
+                android:text="@string/htmlEditordesc34"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/htmleditorImg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/htmlEditordesc34"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="93dp"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:paddingLeft="32dp"
+                android:paddingTop="18dp"
+                android:paddingRight="32dp"
+                android:paddingBottom="32dp"
+                android:src="@drawable/htmleditorimg3" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

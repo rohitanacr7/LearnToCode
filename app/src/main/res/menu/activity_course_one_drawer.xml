@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_html"
+            android:title="@string/menu_intro" />
+        <item
+            android:id="@+id/nav_html_editors"
+            android:title="@string/menu_html_Editor" />
+        <item
+            android:id="@+id/nav_html_basic"
+            android:title="@string/menu_html_Basic" />
+        <item
+            android:id="@+id/nav_html_element"
+            android:title="@string/menu_html_Element" />
+        <item
+            android:id="@+id/nav_html_attribute"
+            android:title="@string/menu_html_Attributes" />
+        <item
+            android:id="@+id/nav_html_heading"
+            android:title="@string/menu_html_headings" />
+        <item
+            android:id="@+id/nav_html_paragraphs"
+            android:title="@string/menu_html_Paragraphs" />
+        <item
+            android:id="@+id/nav_html_style"
+            android:title="@string/menu_html_style" />
+        <item
+            android:id="@+id/nav_html_formating"
+            android:title="@string/menu_html_formatting" />
+        <item
+            android:id="@+id/htmlQuotation"
+            android:title="@string/menu_html_Quotation" />
+        <item
+            android:id="@+id/htmlComment"
+            android:title="@string/menu_html_comment" />
+        <item
+            android:id="@+id/htmlColors"
+            android:title="@string/menu_html_color" />
+        <item
+            android:id="@+id/htmlcss"
+            android:title="@string/menu_html_css" />
+        <item
+            android:id="@+id/htmlLink"
+            android:title="@string/menu_html_links" />
+        <item
+            android:id="@+id/htmlImages"
+            android:title="@string/menu_html_images" />
+        <item
+            android:id="@+id/htmlTables"
+            android:title="@string/menu_html_tables" />
+        <item
+            android:id="@+id/htmlLists"
+            android:title="@string/menu_html_list" />
+        <item
+            android:id="@+id/htmlBlocks"
+            android:title="@string/menu_html_Block" />
+        <item
+            android:id="@+id/htmlClasses"
+            android:title="@string/menu_html_classes" />
+        <item
+            android:id="@+id/htmlId"
+            android:title="@string/menu_html_id" />
+        <item
+            android:id="@+id/htmliframe"
+            android:title="@string/menu_html_iFrames" />
+        <item
+            android:id="@+id/htmlJavascript"
+            android:title="@string/menu_html_javascript" />
+        <item
+            android:id="@+id/htmlfilePath"
+            android:title="@string/menu_html_FilePath" />
+        <item
+            android:id="@+id/htmlHead"
+            android:title="@string/menu_html_head" />
+        <item
+            android:id="@+id/htmlLayout"
+            android:title="@string/menu_html_layout" />
+        <item
+            android:id="@+id/htmlResponsive"
+            android:title="@string/menu_html_responsive" />
+        <item
+            android:id="@+id/htmlComputercode"
+            android:title="@string/menu_html_ComputerCode" />
+        <item
+            android:id="@+id/htmlEntities"
+            android:title="@string/menu_html_entities" />
+        <item
+            android:id="@+id/htmlSymbols"
+            android:title="@string/menu_html_symbols" />
+        <item
+            android:id="@+id/htmlcharset"
+            android:title="@string/menu_html_charset" />
+        <item
+            android:id="@+id/htmlUrlEncode"
+            android:title="@string/menu_html_url_encode" />
+        <item
+            android:id="@+id/htmlXhtml"
+            android:title="@string/menu_html_Xhtml" />
+    </group>
+
+</menu>

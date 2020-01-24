@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/block1">
+
+            <ImageView
+                android:id="@+id/html"
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:src="@drawable/html"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:onClick="viewHtml"/>
+
+            <ImageView
+                android:id="@+id/css"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/css"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+            <ImageView
+                android:id="@+id/php"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/php"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/block2">
+
+            <ImageView
+                android:id="@+id/bootstrap"
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bootstrap"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <ImageView
+                android:id="@+id/c"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/c"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+            <ImageView
+                android:id="@+id/angular"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/angular"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/block3">
+
+            <ImageView
+                android:id="@+id/jquery"
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jquery"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <ImageView
+                android:id="@+id/python"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/python"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+            <ImageView
+                android:id="@+id/sql"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sql"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/block4">
+
+            <ImageView
+                android:id="@+id/c_plus_plus"
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cplus"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <ImageView
+                android:id="@+id/csharp"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/csharp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+            <ImageView
+                android:id="@+id/java"
+                android:layout_weight="33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/java"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

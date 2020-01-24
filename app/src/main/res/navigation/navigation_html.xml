@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_html"
+    app:startDestination="@+id/nav_html">
+
+    <fragment
+        android:id="@+id/nav_html"
+        android:name="com.example.learntocode.ui.html.HtmlFragment"
+        android:label="HTML"
+        tools:layout="@layout/activity_page1" />
+
+    <fragment
+        android:id="@+id/nav_html_editors"
+        android:name="com.example.learntocode.ui.html_editor.HtmlEditorFragment"
+        android:label="HTML Editors"
+        tools:layout="@layout/activity_html_editors" />
+
+    <fragment
+        android:id="@+id/nav_html_basic"
+        android:name="com.example.learntocode.ui.html_basic.HtmlBasicFragment"
+        android:label="HTML Basic"
+        tools:layout="@layout/activity_html_basic" />
+
+    <fragment
+        android:id="@+id/nav_html_element"
+        android:name="com.example.learntocode.ui.html_element.HtmlElementFragment"
+        android:label="HTML Elements"
+        tools:layout="@layout/activity_html_element" />
+
+    <fragment
+        android:id="@+id/nav_html_attribute"
+        android:name="com.example.learntocode.ui.html_attribute.HtmlAttributeFragment"
+        android:label="HTML Attributes"
+        tools:layout="@layout/activity_html_attribute" />
+
+    <fragment
+        android:id="@+id/nav_html_heading"
+        android:name="com.example.learntocode.ui.html_heading.HtmlHeadingFragment"
+        android:label="HTML Headings"
+        tools:layout="@layout/activity_html_heading" />
+
+    <fragment
+        android:id="@+id/nav_html_paragraphs"
+        android:name="com.example.learntocode.ui.html_paragraphs.HtmlParagraphsFragment"
+        android:label="HTML Paragraphs"
+        tools:layout="@layout/activity_html_paragraphs" />
+
+    <fragment
+        android:id="@+id/nav_html_style"
+        android:name="com.example.learntocode.ui.html_style.HtmlStyleFragment"
+        android:label="HTML Style"
+        tools:layout="@layout/activity_html_style" />
+
+    <fragment
+        android:id="@+id/nav_html_formating"
+        android:name="com.example.learntocode.ui.html_formating.HtmlFormatingFragment"
+        android:label="HTML Formating"
+        tools:layout="@layout/activity_html_formating" />
+
+</navigation>
